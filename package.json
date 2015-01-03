@@ -1,0 +1,40 @@
+{
+    "name": "less-plugin-advanced-color-functions",
+    "version": "1.0.0",
+    "description": "less plugin providing additional color functions",
+    "homepage": "http://lesscss.org",
+    "author": {
+        "name": "Luke Page"
+    },
+    "contributors": [
+        "The Core Less Team"
+    ],
+    "bugs": {
+        "url": "https://github.com/less/less-plugin-advanced-color-functions/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/less/less-plugin-advanced-color-functions.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/less/less-plugin-inline-urls/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+	"devDependencies": {
+		"less": ">2.1.0",
+		"diff": "^1.0"
+	},
+	"scripts": {
+		"test": "node test"
+	},
+    "engines": {
+        "node": ">=0.4.2"
+    },
+    "keywords": [
+        "less plugins",
+        "color functions"
+    ]
+}
