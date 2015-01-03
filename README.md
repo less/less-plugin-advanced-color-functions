@@ -1,4 +1,4 @@
-less-plugin-inline-images
-=========================
+less-plugin-advanced-color-functions
+====================================
 
-Converts url("image.png") to data-uri's automatically, without having to write data-uri("image.png") in your less
+Adds some advanced colour functions.
