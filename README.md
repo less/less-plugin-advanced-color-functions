@@ -8,6 +8,9 @@ Adds some advanced colour functions that helps in finding more contrasting color
  - autocontrast: if color1 and color2 have a similar luma, it contrast color2 a little bit more. 
 If the color2 luma resultant is greater than 1, or less than 0, its luma gets inverted.
 
+Example
+-------
+
 ```css
 @color1: #ff0000;
 @color2: #ee0000;
@@ -19,6 +22,7 @@ autocontrast: autocontrast(@color1,@color2);
 autocontrast50: autocontrast(@color1,@color2,50%);
 }
 ```
+
 outputs:
 
 ```css
@@ -31,4 +35,5 @@ outputs:
 ```
 
 The compile coloures will look like that shown below:
- ![contrasting colours used in buttons](http://imgur.com/CqwTiO9)
+![contrasting colours used in buttons](http://imgur.com/CqwTiO9.png?1)
+
