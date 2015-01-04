@@ -29,3 +29,6 @@ outputs:
   autocontrast50: #ffdede;
 }
 ```
+
+The compile coloures will look like that shown below:
+ ![contrasting colours used in buttons](http://imgur.com/CqwTiO9)
