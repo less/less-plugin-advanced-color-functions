@@ -58,6 +58,6 @@ outputs:
 }
 ```
 
-The compile coloures will look like that shown below:
+The compiled coloures will look like that shown below:
 ![contrasting colours used in buttons](http://imgur.com/CqwTiO9.png?1)
 
