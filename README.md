@@ -8,8 +8,32 @@ Adds some advanced colour functions that helps in finding more contrasting color
  - autocontrast: if color1 and color2 have a similar luma, it contrast color2 a little bit more. 
 If the color2 luma resultant is greater than 1, or less than 0, its luma gets inverted.
 
-Example
--------
+## lessc usage
+
+```
+npm install -g less-plugin-advanced-color-functions
+```
+
+and then on the command line,
+
+```
+lessc file.less --advanced-color-functions
+```
+
+## Programmatic usage
+
+```
+var LessPluginAdvancedColorFunctions = require('less-plugin-advanced-color-functions'),
+    AdvancedColorFunctions = new LessPluginAdvancedColorFunctions();
+less.render(lessString, { plugins: [AdvancedColorFunctions] })
+  .then(
+```
+
+## Browser usage
+
+Browser usage is not supported at this time.
+
+## Example
 
 ```css
 @color1: #ff0000;
