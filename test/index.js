@@ -10,6 +10,4 @@ lessTester.runTestSet(
     {strictMath: true, silent: true, plugins: [plugin] },
     "functions/");
 
-if (lessTester.finish) {
-	lessTester.finish();
-}
+lessTester.finished();
